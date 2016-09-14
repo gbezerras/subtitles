@@ -1,0 +1,3337 @@
+1
+00:00:13,980 --> 00:00:19,040
+>> FEMALE SPEAKER: We are used to think
+about sites only with online resources.
+
+2
+00:00:19,040 --> 00:00:24,240
+But Jake can change our opinion during his
+talk on BrazilJS 2016.
+
+3
+00:00:24,540 --> 00:00:29,720
+Developer for Google Chrome and one of the
+editors of the Service Worker specification,
+
+4
+00:00:29,720 --> 00:00:32,980
+Jake will take an online-only site
+
+5
+00:00:32,980 --> 00:00:37,500
+and transform it into an offline-first
+progressive web app
+
+6
+00:00:37,500 --> 00:00:43,300
+installable, completely network-resilient,
+right before the eyes of the audience.
+
+7
+00:00:52,980 --> 00:00:56,180
+>> JAKE ARCHIBALD: I landed in Brazil
+yesterday and a few people
+
+8
+00:00:56,180 --> 00:01:00,560
+were asking me were I'm from, and my
+standard reply is to say
+
+9
+00:01:00,560 --> 00:01:02,040
+"I am from England".
+
+10
+00:01:02,040 --> 00:01:06,220
+And then people say "well, where in England
+are you from?" and this used to be
+
+11
+00:01:06,220 --> 00:01:13,100
+a difficult question to answer, because I'm not
+from one of the big cities in England.
+
+12
+00:01:13,110 --> 00:01:15,460
+I'm not from somewhere many people have
+even heard of,
+
+13
+00:01:15,460 --> 00:01:20,200
+but in the past few years it's actually got
+a lot easier to describe to people.
+
+14
+00:01:20,210 --> 00:01:21,350
+For instance...
+
+15
+00:01:21,350 --> 00:01:26,060
+[Game of Thrones theme plays]
+I moved to the south, in a big city...London!
+
+16
+00:01:26,070 --> 00:01:28,390
+This is where all the big buildings are...
+[Applause]
+
+17
+00:01:28,390 --> 00:01:30,130
+all the landmarks you're familiar with.
+
+18
+00:01:30,130 --> 00:01:31,830
+That's the Google office there!
+
+19
+00:01:31,830 --> 00:01:34,490
+It's where I work, but that's not where I'm
+from!
+
+20
+00:01:34,490 --> 00:01:40,200
+I'm from way up in the north of England in
+a small little town called Carlisle.
+
+21
+00:01:40,200 --> 00:01:43,450
+Now, in Carlisle the buildings are not very
+big.
+
+22
+00:01:43,450 --> 00:01:46,390
+Large parts of the city are in black and white,
+
+23
+00:01:46,390 --> 00:01:49,010
+it's like there ain't real life, it's really weird.
+
+24
+00:01:49,010 --> 00:01:53,400
+Not a lot of tech going on, so that's one
+of the reasons I had to move out.
+
+25
+00:01:53,409 --> 00:01:58,630
+But just having the point home, this sort
+of purple line here is Hadrian's Wall.
+
+26
+00:01:58,630 --> 00:02:02,590
+[Laughter] It's really a thing, this thing
+was built by the Romans
+
+27
+00:02:02,590 --> 00:02:06,479
+to keep the wildlings out, or as we call
+them, the Scottish.
+
+28
+00:02:06,479 --> 00:02:08,859
+[Music ends]
+[Laughter]
+
+29
+00:02:08,860 --> 00:02:12,560
+So when I moved down south, I actually
+had to sort of change the accent
+
+30
+00:02:12,560 --> 00:02:15,620
+that I speak with so people could
+understand me better.
+
+31
+00:02:15,620 --> 00:02:18,740
+So instead of saying [Northern England
+accent] "Can'ave a pint of beer, please?",
+
+32
+00:02:18,740 --> 00:02:21,280
+I would say [London accent] "Can I have a
+pint of beer, please?".
+
+33
+00:02:21,290 --> 00:02:25,140
+And instead of saying "I will avenge the death
+of Ned Stark!", I'd say...
+
+34
+00:02:25,140 --> 00:02:29,019
+"I'll have a pint of beer, please".
+[Laughter]
+
+35
+00:02:30,200 --> 00:02:34,680
+So it's a real honor to be opening the conference,
+I mean it's great to speak first as well
+
+36
+00:02:34,680 --> 00:02:38,380
+because it means I don't have to watch a
+load of great talks and then worry about
+
+37
+00:02:38,380 --> 00:02:39,940
+my own not being as good.
+
+38
+00:02:39,940 --> 00:02:44,500
+I can set a nice low bar right to the start
+and enjoy everyone else's talks.
+
+39
+00:02:44,500 --> 00:02:49,380
+Also, at about 3 p.m. you'll probably find
+me just lying face-down on the floor with
+
+40
+00:02:49,380 --> 00:02:52,800
+jet lag, so don't worry about that, that's
+entirely normal.
+
+41
+00:02:52,810 --> 00:02:58,910
+But this is the first time I've been to South
+America and I really want to hear from you
+
+42
+00:02:58,910 --> 00:03:04,210
+what Chrome and web standards can do better,
+because even living in England I can see that
+
+43
+00:03:04,210 --> 00:03:08,020
+a lot of this stuff can become very
+San Francisco-centric,
+
+44
+00:03:08,020 --> 00:03:11,860
+because that's where a lot of the work happens,
+and that's not what I want from the web.
+
+45
+00:03:11,860 --> 00:03:15,800
+I'm gonna be around for the whole conference,
+both days and definitely the after party,
+
+46
+00:03:15,810 --> 00:03:17,659
+so come and talk to me.
+
+47
+00:03:17,659 --> 00:03:22,599
+Tell me what the web is not doing right, what
+it can do better, even if I'm hiding in the corner,
+
+48
+00:03:22,600 --> 00:03:27,580
+looking socially awkward, that is because
+I am socially awkward, but I'll get over it.
+
+49
+00:03:28,520 --> 00:03:31,380
+But the thing I wanted to talk about is this.
+
+50
+00:03:31,380 --> 00:03:36,960
+It's a little web app I built called Emojoy,
+well which you can find...
+
+51
+00:03:36,960 --> 00:03:38,980
+I've got the taskbar itself in there.
+
+52
+00:03:38,980 --> 00:03:40,380
+Let's get rid of that, there it goes.
+
+53
+00:03:40,380 --> 00:03:43,260
+You can find it at this URL.
+
+54
+00:03:43,260 --> 00:03:47,220
+So when you're working developer relations
+like I do, you have to build things
+
+55
+00:03:47,220 --> 00:03:51,340
+from time to time just to prove to yourself and
+other people that you're still a real developer,
+
+56
+00:03:51,340 --> 00:03:53,420
+that you can still actually write code.
+
+57
+00:03:53,420 --> 00:03:54,819
+And this is what I made.
+
+58
+00:03:54,819 --> 00:03:57,399
+I turned it into a progressive web app.
+
+59
+00:03:57,400 --> 00:04:00,880
+And if you're looking to do the same kind
+of thing, the first thing we need to do is
+
+60
+00:04:00,880 --> 00:04:06,140
+to tell the browser how to integrate it with
+the rest of the operating system and UI,
+
+61
+00:04:06,150 --> 00:04:09,970
+in the head of the page you can declare
+a theme color,
+
+62
+00:04:09,970 --> 00:04:11,999
+and this will change the top color,
+
+63
+00:04:11,999 --> 00:04:13,909
+which is kind of integrated with the browser.
+
+64
+00:04:13,909 --> 00:04:16,590
+It's a very small thing, but it's a quick
+win.
+
+65
+00:04:16,590 --> 00:04:21,669
+We can also outer-reference to a manifest
+and this is downloaded when it's needed.
+
+66
+00:04:21,669 --> 00:04:25,269
+So the manifest looks like this,
+it's just a lump of JSON
+
+67
+00:04:25,269 --> 00:04:27,819
+that tells it about icons and background colors.
+
+68
+00:04:27,819 --> 00:04:31,819
+I want to have this, users will be able to
+add the site to their home screen
+
+69
+00:04:31,820 --> 00:04:35,260
+and they get the icon that you specified
+along with the title.
+
+70
+00:04:35,260 --> 00:04:39,540
+But not only that, when they launch it, you get
+this splash screen as the browser is booting up
+
+71
+00:04:39,550 --> 00:04:42,430
+and your site is getting at the first render.
+
+72
+00:04:42,430 --> 00:04:46,010
+So the background color there, the icon and
+the text beneath,
+
+73
+00:04:46,010 --> 00:04:49,200
+the color right there on the top, that's all
+taken from the manifest.
+
+74
+00:04:49,210 --> 00:04:53,670
+Now once that goes away, the user gets
+your site without the URL bar,
+
+75
+00:04:53,670 --> 00:04:57,020
+so it looks and feels just like a native app.
+
+76
+00:04:57,030 --> 00:05:02,940
+However, this whole illusion comes crashing
+down when you're offline.
+
+77
+00:05:02,940 --> 00:05:06,900
+I don't know if you've seen, but the offline
+screen is actually playable,
+
+78
+00:05:06,900 --> 00:05:09,760
+it's a little game with the dinosaur.
+
+79
+00:05:09,760 --> 00:05:15,540
+We had to add an option into Chrome to turn
+this game off, because in schools apparently
+
+80
+00:05:15,550 --> 00:05:20,419
+kids were climbing under the desk and ripping
+out the Ethernet cables from the machines,
+
+81
+00:05:20,419 --> 00:05:21,919
+just so they can play this game.
+
+82
+00:05:21,919 --> 00:05:25,250
+So we had to add an option to stop that.
+
+83
+00:05:25,250 --> 00:05:27,970
+But, in general, this is a really bad experience.
+
+84
+00:05:27,970 --> 00:05:33,910
+The user has launched our app, they've came
+to us for content again and we have failed
+
+85
+00:05:33,910 --> 00:05:39,260
+to such an extent that the browser has to
+step in and apologise --
+
+86
+00:05:39,260 --> 00:05:41,220
+well, they don't apologise, they blame the user.
+
+87
+00:05:41,230 --> 00:05:45,050
+You see this here, "YOU are offline", it's
+your fault.
+
+88
+00:05:45,050 --> 00:05:51,590
+And this is bad, because if we are competing
+with native, this is like an operating system...failure,
+
+89
+00:05:51,590 --> 00:05:54,150
+it's like when you get that little thing along
+the bottom that says
+
+90
+00:05:54,150 --> 00:05:58,930
+"Abstract Java proxy bin has failed to make
+a socket" or something like that,
+
+91
+00:05:58,930 --> 00:06:01,170
+it's that kind of error.
+
+92
+00:06:01,880 --> 00:06:03,880
+But things do get worse.
+
+93
+00:06:03,889 --> 00:06:07,140
+Offline isn't the worst problem we face.
+
+94
+00:06:07,149 --> 00:06:08,620
+This is.
+
+95
+00:06:08,620 --> 00:06:10,620
+And I call it Lie-Fi.
+
+96
+00:06:10,620 --> 00:06:14,060
+[Laughter]
+
+97
+00:06:14,060 --> 00:06:18,140
+This is when your phone says it has
+connectivity, but it doesn't really.
+
+98
+00:06:18,140 --> 00:06:21,980
+You might experience this sometime today,
+because we have Wi-Fi at the conference,
+
+99
+00:06:21,980 --> 00:06:24,560
+so you'll get something very similar to this.
+
+100
+00:06:25,040 --> 00:06:29,480
+The Lie-Fi experience...is just this.
+
+101
+00:06:29,680 --> 00:06:33,300
+So the splash screen goes away when the
+website gets to first render,
+
+102
+00:06:33,300 --> 00:06:36,500
+but when you have Lie-Fi this never happens.
+
+103
+00:06:36,760 --> 00:06:40,160
+And this is worse than offline, because with
+offline you get a quick answer.
+
+104
+00:06:40,160 --> 00:06:43,200
+The answer is NO, but it's a quick answer.
+
+105
+00:06:43,210 --> 00:06:45,460
+Here the user is just left waiting,
+
+106
+00:06:45,460 --> 00:06:49,000
+and you are forcing your users to stare
+at this or give up,
+
+107
+00:06:49,000 --> 00:06:52,720
+and with every passing second the
+user hates the experience a little more.
+
+108
+00:06:52,729 --> 00:06:57,769
+And I don't know if you've been in this situation,
+but I'm staring at the white screen
+
+109
+00:06:57,769 --> 00:07:01,949
+or splash screen and I'm stuck there,
+and I think
+
+110
+00:07:01,949 --> 00:07:06,629
+"well, I'm not going to stop now,
+because I feel like if I closed it now,
+
+111
+00:07:06,629 --> 00:07:09,629
+if I waited one more second that would
+have appeared".
+
+112
+00:07:09,629 --> 00:07:13,220
+It's like "so I'm left in this limbo staring
+at the screen".
+
+113
+00:07:13,540 --> 00:07:19,000
+So this is why we should avoid treating online
+and offline as binary states.
+
+114
+00:07:19,000 --> 00:07:22,440
+If we care for offline and we care for online
+separately,
+
+115
+00:07:22,440 --> 00:07:25,360
+this situation goes completely unsolved.
+
+116
+00:07:25,920 --> 00:07:28,620
+And that's why the goal standard is offline-first.
+
+117
+00:07:28,620 --> 00:07:32,440
+Offline-first solves these problems -- I had
+so much fun making this slide.
+
+118
+00:07:32,440 --> 00:07:33,420
+[Laughter]
+
+119
+00:07:33,420 --> 00:07:36,900
+This is all CSS transforms and mix-blend-mode,
+
+120
+00:07:36,900 --> 00:07:39,699
+mix-blend-mode is the best thing we've
+added in ages!
+
+121
+00:07:39,699 --> 00:07:45,919
+So, with offline-first we assume offline and
+then we do as much as we can with local content,
+
+122
+00:07:45,920 --> 00:07:48,500
+and THEN we try to go to the network.
+
+123
+00:07:48,500 --> 00:07:51,240
+And the more we get to render without a
+connection,
+
+124
+00:07:51,240 --> 00:07:53,660
+the more offline-first it is, the better it is.
+
+125
+00:07:54,160 --> 00:07:57,460
+Because we are thinking of the network as
+a piece of progressive enhancements,
+
+126
+00:07:57,460 --> 00:07:59,800
+and enhancements that might not be there.
+
+127
+00:07:59,900 --> 00:08:01,140
+And here's how we do.
+
+128
+00:08:01,680 --> 00:08:04,580
+So to begin with, we register for
+a service worker
+
+129
+00:08:04,580 --> 00:08:09,860
+and this isn't some magic manifest formats
+or a config file, it's just JavaScript.
+
+130
+00:08:09,860 --> 00:08:12,640
+Because you figure it like "why invent some
+new thing,
+
+131
+00:08:12,640 --> 00:08:16,920
+when we have like a world full of JavaScript
+developers and debugging tools".
+
+132
+00:08:16,930 --> 00:08:21,910
+So, after the register call, we should wrap
+it into some kind of feature detection because,
+
+133
+00:08:21,910 --> 00:08:24,930
+you know, there are older browsers out there...
+
+134
+00:08:24,930 --> 00:08:27,870
+that don't support Service Worker...
+[Laughter]
+
+135
+00:08:27,870 --> 00:08:29,320
+[Laughter]
+
+136
+00:08:29,320 --> 00:08:32,620
+and this just stops them from hurting
+themselves... [Laughter]
+
+137
+00:08:32,620 --> 00:08:35,220
+and others around them.
+[Applause]
+
+138
+00:08:35,220 --> 00:08:39,000
+[Applause]
+
+139
+00:08:39,000 --> 00:08:42,960
+I should point I'm making fun of IE here,
+Edge is implementing Service Worker,
+
+140
+00:08:42,960 --> 00:08:45,720
+they've got it in their experimental builds,
+Edge is a really good browser.
+
+141
+00:08:45,720 --> 00:08:49,260
+Anyway, in that script I'm gonna add a
+listener for the fetch events
+
+142
+00:08:49,260 --> 00:08:51,400
+and just have a debugger statement in there.
+
+143
+00:08:51,980 --> 00:08:55,420
+As for now, if I refresh the page, I hit that
+breakpoint.
+
+144
+00:08:55,420 --> 00:09:00,400
+And we got this event object here and it has
+a request property, and it's telling me about
+
+145
+00:09:00,400 --> 00:09:05,470
+the request of the page itself, we can see
+the URL, the headers, the type of request.
+
+146
+00:09:05,660 --> 00:09:09,340
+But you also get one of these events for
+every request the page makes,
+
+147
+00:09:09,340 --> 00:09:13,020
+like the CSS, the JavaScript, the fonts, the
+images.
+
+148
+00:09:13,020 --> 00:09:16,940
+I get these events for the avatar images
+even though they are on another domain
+
+149
+00:09:16,940 --> 00:09:18,360
+or in another origin.
+
+150
+00:09:19,400 --> 00:09:23,720
+So by default requests go from the page to
+the network and there's not a whole lot
+
+151
+00:09:23,720 --> 00:09:26,740
+you can do about it, but once you
+introduce a service worker,
+
+152
+00:09:26,740 --> 00:09:29,960
+it controls pages and requests go
+through it.
+
+153
+00:09:30,200 --> 00:09:35,100
+But like other events, like "click" and
+"submit", you can prevent the default
+
+154
+00:09:35,100 --> 00:09:38,500
+and do your own thing, and that's where
+things get really interesting,
+
+155
+00:09:38,500 --> 00:09:40,780
+and that's how you can make offline-first work.
+
+156
+00:09:41,820 --> 00:09:47,000
+So the first thing I built to make Emojoy work
+offline is, I created an application shell,
+
+157
+00:09:47,000 --> 00:09:50,660
+which is just the site without the
+messages, just looks like this.
+
+158
+00:09:50,820 --> 00:09:53,960
+So I want to serve this, and the CSS,
+and its JavaScripts
+
+159
+00:09:53,960 --> 00:09:56,560
+before even thinking about going to
+the network.
+
+160
+00:09:56,820 --> 00:10:00,720
+Because even if we have a great network connection,
+serving this from the cache is gonna be
+
+161
+00:10:00,730 --> 00:10:03,810
+a whole lot faster, and that starts the
+offline-first approach.
+
+162
+00:10:03,810 --> 00:10:06,340
+So we need to cache this ahead of time...
+
+163
+00:10:06,340 --> 00:10:09,720
+and Service Worker has an event for doing this,
+"install",
+
+164
+00:10:09,720 --> 00:10:13,880
+and this happens the first time the browser
+discovers this version of the Service Worker.
+
+165
+00:10:13,880 --> 00:10:17,140
+And it's your opportunity to go and cache
+everything that you need,
+
+166
+00:10:17,140 --> 00:10:20,800
+so that's what I'm doing here,
+I'm creating a cache called "static-v1"
+
+167
+00:10:20,800 --> 00:10:24,480
+and I'm adding the app shell, the CSS and
+the JavaScript too.
+
+168
+00:10:24,900 --> 00:10:29,220
+But these won't be used by default, the service
+worker doesn't really do anything automatically,
+
+169
+00:10:29,230 --> 00:10:31,030
+you have to tell it what you want.
+
+170
+00:10:31,030 --> 00:10:36,250
+Overing the fetch events, I'm gonna start
+by parsing the URL, so I can look at its
+
+171
+00:10:36,250 --> 00:10:41,170
+component parts, and then if the request is
+to the same origin as the service worker
+
+172
+00:10:41,170 --> 00:10:46,450
+and the pathname is just "/", I'm gonna
+respond with that shell from the cache.
+
+173
+00:10:46,700 --> 00:10:51,200
+So, event.respondWith() is my way of saying
+"hey, I'm gonna take control of this,
+
+174
+00:10:51,200 --> 00:10:55,220
+I'm going to do my own thing here",
+and you're passing a response object
+
+175
+00:10:55,220 --> 00:10:57,740
+or a Promise that resolves with a response.
+
+176
+00:10:57,740 --> 00:11:03,720
+And caches.match() takes a request or a URL
+and it resolves with a response object.
+
+177
+00:11:03,900 --> 00:11:05,160
+So that's done.
+
+178
+00:11:05,160 --> 00:11:08,460
+Oh, also, if we're handling a different path,
+
+179
+00:11:08,460 --> 00:11:11,880
+I'm going to respond with a match in the
+cache for this request,
+
+180
+00:11:11,880 --> 00:11:14,460
+so if the request is for the CSS or the
+JavaScript,
+
+181
+00:11:14,460 --> 00:11:16,180
+we'll take it straight from the cache.
+
+182
+00:11:16,180 --> 00:11:17,920
+If it's a different request, then...
+
+183
+00:11:17,920 --> 00:11:20,800
+caches.match is going to resolve with "undefined".
+
+184
+00:11:20,800 --> 00:11:25,260
+So we need to catch that and if
+response is falsy...
+
+185
+00:11:25,260 --> 00:11:29,480
+we'll instead fetch the request
+from the network.
+
+186
+00:11:30,100 --> 00:11:33,720
+So here we are treating the cache as a
+primary resource for data
+
+187
+00:11:33,720 --> 00:11:35,580
+and are falling back to the network.
+
+188
+00:11:35,580 --> 00:11:38,340
+So I'm doing now with whatever connection
+the user has.
+
+189
+00:11:38,340 --> 00:11:40,160
+So it's very offline-first.
+
+190
+00:11:41,160 --> 00:11:45,780
+So using this pattern we can fetch the app shell,
+the JavaScript and the CSS from the cache,
+
+191
+00:11:45,780 --> 00:11:49,620
+this gives us our first shell render without
+going to the network
+
+192
+00:11:49,620 --> 00:11:53,380
+and now we're running JavaScript on the page,
+so I can display even more content gained
+
+193
+00:11:53,380 --> 00:11:56,700
+from like IndexedDB or LocalStorage or
+something like that.
+
+194
+00:11:56,700 --> 00:12:00,560
+With Emojoy, I show the last set of
+messages that was fetched,
+
+195
+00:12:00,560 --> 00:12:04,040
+the last things the user saw, I just store that
+in IndexedDB.
+
+196
+00:12:04,400 --> 00:12:07,160
+And I don't just do that for offline users,
+do it for all users.
+
+197
+00:12:07,320 --> 00:12:10,540
+And THEN go to the network for updated content.
+
+198
+00:12:11,520 --> 00:12:13,560
+And update the page when that arrives.
+
+199
+00:12:13,620 --> 00:12:15,760
+And if that network request fails...
+
+200
+00:12:15,760 --> 00:12:20,260
+that's kind of okay, I'm still displaying
+content, still a good offline experience.
+
+201
+00:12:20,260 --> 00:12:25,080
+And if that network request is slow, that
+is probably okay too, I can tell the user
+
+202
+00:12:25,080 --> 00:12:28,920
+"hey, we are trying to get data and it's taking
+a while", but if the user just came to look
+
+203
+00:12:28,920 --> 00:12:32,900
+a previous message, then we've given them
+that, which is great.
+
+204
+00:12:33,200 --> 00:12:40,240
+So, to see the benefits of this I wanted to
+compare it to the original online-only site,
+
+205
+00:12:40,240 --> 00:12:43,100
+with this new offline-first service worker
+version.
+
+206
+00:12:43,100 --> 00:12:46,200
+So I went to a place called "The Comparinator".
+
+207
+00:12:46,200 --> 00:12:48,000
+>> MALE SPEAKER: Fight!
+
+208
+00:12:48,000 --> 00:12:49,320
+[Laughter]
+
+209
+00:12:49,320 --> 00:12:55,980
+>> JAKE ARCHIBALD: So, first up, this on the
+left here, this is the online-only original
+
+210
+00:12:55,980 --> 00:12:58,040
+and on the right is the fancy service worker
+version.
+
+211
+00:12:58,040 --> 00:13:00,320
+So this is when the device is online.
+
+212
+00:13:00,740 --> 00:13:04,040
+Here we see, we get full content instantly.
+
+213
+00:13:04,040 --> 00:13:08,000
+The one on the left lags behind because it's
+having to pull everything from the network.
+
+214
+00:13:08,420 --> 00:13:15,020
+But in the offline case, we get instant full
+content versus a total failure.
+
+215
+00:13:16,120 --> 00:13:19,060
+But the important case here is the Lie-Fi
+one.
+
+216
+00:13:19,140 --> 00:13:25,100
+Here we get instant full content rather than
+the white screen of death.
+
+217
+00:13:26,040 --> 00:13:31,880
+In fact, with our progressive web app here the
+experience is the same with every connection type.
+
+218
+00:13:31,880 --> 00:13:34,260
+And that's the offline-first goal.
+
+219
+00:13:34,260 --> 00:13:37,660
+The network only matters when it comes to
+fetching new content.
+
+220
+00:13:37,660 --> 00:13:39,780
+And this is how we compete with native.
+
+221
+00:13:39,780 --> 00:13:42,460
+And...we can compete with native.
+
+222
+00:13:42,470 --> 00:13:47,210
+So, I wanted to take this silly little web
+app and compare it with a real,
+
+223
+00:13:47,210 --> 00:13:49,190
+professionally built native app.
+
+224
+00:13:49,190 --> 00:13:52,910
+So this is Google Photos I'm going to
+launch, Google Photos on the left,
+
+225
+00:13:52,910 --> 00:13:56,870
+and I'm gonna launch Emojoy on the right,
+at the same time.
+
+226
+00:13:58,800 --> 00:14:00,120
+And it's so close!
+
+227
+00:14:00,120 --> 00:14:02,320
+In terms of performance, it's really competitive.
+
+228
+00:14:02,320 --> 00:14:07,580
+Emojoy is actually 0.2 seconds slower to
+show content, that's 200 miliseconds.
+
+229
+00:14:07,590 --> 00:14:08,480
+Very close.
+
+230
+00:14:08,480 --> 00:14:10,940
+And that's comparing to a very well-built
+native app.
+
+231
+00:14:11,300 --> 00:14:16,160
+But this is starting from cold, this is when
+the browser isn't in memory at all.
+
+232
+00:14:16,400 --> 00:14:21,600
+If the user had looked a website recently,
+and let's face it, the browser is a pretty
+
+233
+00:14:21,600 --> 00:14:26,000
+popular app on people's phones, so it's
+likely to be in memory, this happens.
+
+234
+00:14:27,500 --> 00:14:32,740
+You end up with a progressive web app
+beating a native app, to content render,
+
+235
+00:14:32,740 --> 00:14:34,480
+by almost half a second.
+
+236
+00:14:34,480 --> 00:14:39,000
+A few people have asked me about
+Instant Android Apps,
+
+237
+00:14:39,000 --> 00:14:42,360
+the thing that was mentioned in the I/O,
+and my answer was that
+
+238
+00:14:42,360 --> 00:14:46,780
+"well, progressive web apps are shippable
+today", I mean, we saw that in the intro.
+
+239
+00:14:46,780 --> 00:14:51,200
+These Android Instant Apps, at the
+moment it's just the slide deck.
+
+240
+00:14:51,210 --> 00:14:55,290
+None of this was really sort of seen, what
+they can do, how fast they really are,
+
+241
+00:14:55,290 --> 00:14:59,750
+what screens, the permissions the user has
+to agree to see any of this.
+
+242
+00:15:00,020 --> 00:15:03,740
+Progressive web apps are not Android-only,
+it's one thing that you can ship across
+
+243
+00:15:03,740 --> 00:15:06,660
+thousands of devices, operating systems
+and browsers.
+
+244
+00:15:06,960 --> 00:15:09,720
+And it can beat a native app to content render.
+
+245
+00:15:09,940 --> 00:15:15,580
+So, Service Worker ship in stable versions
+of Chrome, Firefox and Opera.
+
+246
+00:15:15,580 --> 00:15:17,800
+It's been there for well over an year now.
+
+247
+00:15:17,800 --> 00:15:22,440
+It's coming to Microsoft Edge, they've just
+started landing parts of it in their...
+
+248
+00:15:22,440 --> 00:15:26,360
+scripted nightly preview browser, it's a
+high-priority implementation for them.
+
+249
+00:15:26,360 --> 00:15:28,740
+It's under consideration by Apple.
+
+250
+00:15:29,200 --> 00:15:34,600
+They sent some of their senior engineers to
+the last Service Worker meeting,
+
+251
+00:15:34,600 --> 00:15:38,840
+implementation meeting, which was very
+encouraging.
+
+252
+00:15:38,840 --> 00:15:43,280
+But they've not promised if they are going
+to ship it yet.
+
+253
+00:15:43,280 --> 00:15:45,640
+But I'm quietly confident on that.
+
+254
+00:15:45,640 --> 00:15:48,920
+But progressive enhancement means that you
+can use it today.
+
+255
+00:15:48,920 --> 00:15:55,440
+And if you use Service Worker, your site suddenly
+loads faster in Chrome and Firefox and Opera
+
+256
+00:15:55,440 --> 00:16:00,180
+than they do in Safari, then that gives Apple 
+more reasons to implement Service Worker,
+
+257
+00:16:00,180 --> 00:16:03,380
+because they are not in the business of shipping
+a slow browser.
+
+258
+00:16:03,920 --> 00:16:06,640
+Web developers are really in a position of
+power here,
+
+259
+00:16:06,640 --> 00:16:08,860
+and that's the power of the extensible web.
+
+260
+00:16:08,860 --> 00:16:13,800
+You want to give you low-level things to
+play with and to make all your sites faster,
+
+261
+00:16:13,800 --> 00:16:17,720
+in the way YOU want to make them faster,
+rather than providing you with these high-level,
+
+262
+00:16:17,720 --> 00:16:22,420
+abstract APIs like AppCache that don't
+really work for anything.
+
+263
+00:16:22,420 --> 00:16:26,420
+Anyway, enough about it, this is the stuff
+that has been possible for an year now.
+
+264
+00:16:26,420 --> 00:16:29,740
+I wanna talk a little bit more about stuff
+that has just shipped.
+
+265
+00:16:30,400 --> 00:16:32,100
+Because I've built another app.
+
+266
+00:16:32,220 --> 00:16:34,060
+This is Wiki Offline.
+
+267
+00:16:34,060 --> 00:16:37,800
+Because I wanted to show how a service worker
+could work for something that was less...
+
+268
+00:16:37,800 --> 00:16:40,620
+less app-like and more like a traditional
+website.
+
+269
+00:16:40,720 --> 00:16:44,760
+Without Service Worker it's all
+server-rendered like Wikipedia itself.
+
+270
+00:16:44,760 --> 00:16:48,880
+My eventual aim is to make all of the
+articles work offline, but in the first pass
+
+271
+00:16:48,880 --> 00:16:52,400
+I just want it to add a service worker as a
+performance enhancement.
+
+272
+00:16:52,600 --> 00:16:54,840
+As before, I built an app shell.
+
+273
+00:16:54,840 --> 00:16:59,180
+So, for article pages it would load this
+generic shell without the network
+
+274
+00:16:59,180 --> 00:17:03,900
+and then the page's JavaScript would handle
+the fetching of the article from the network.
+
+275
+00:17:04,260 --> 00:17:06,880
+So, without Service Worker, like any other
+website,
+
+276
+00:17:06,880 --> 00:17:11,600
+but with Service Worker I've re-archictected
+it to be more like a single-page app.
+
+277
+00:17:11,980 --> 00:17:16,180
+So I was very excited about all the work I've
+done, I wanted to see how fast it was,
+
+278
+00:17:16,180 --> 00:17:18,820
+so of course I went back to The Comparinator.
+
+279
+00:17:18,820 --> 00:17:20,580
+>> MALE SPEAKER: Fight!
+
+280
+00:17:20,580 --> 00:17:24,280
+>> JAKE ARCHIBALD: I wanted to compare
+the original sort of online-only site with the
+
+281
+00:17:24,280 --> 00:17:26,680
+fancy new service worker version.
+
+282
+00:17:26,680 --> 00:17:30,940
+So, online-only on the left, service worker
+on the right.
+
+283
+00:17:30,940 --> 00:17:34,180
+And I'm gonna load both of them over
+throttled connection,
+
+284
+00:17:34,180 --> 00:17:37,380
+or as most people in the world call it,
+their Internet connection.
+
+285
+00:17:37,380 --> 00:17:39,160
+So, go!
+
+286
+00:17:42,340 --> 00:17:45,380
+And I watched this, and I thought:
+
+287
+00:17:45,380 --> 00:17:46,620
+"Shit".
+
+288
+00:17:46,980 --> 00:17:48,280
+[Laughter]
+
+289
+00:17:48,880 --> 00:17:50,460
+It got slower.
+
+290
+00:17:50,460 --> 00:17:52,480
+It got way slower, here it is again.
+
+291
+00:17:52,480 --> 00:17:56,320
+So the first render is a bit quicker, but
+the content...
+
+292
+00:17:56,320 --> 00:18:01,880
+which some people would say is the important
+part, is over half a second...
+
+293
+00:18:01,880 --> 00:18:04,460
+oh, it's over two seconds slower on 3G.
+
+294
+00:18:04,460 --> 00:18:08,240
+And I had about panic about this, because
+I was like "oh, we've been working on this
+
+295
+00:18:08,250 --> 00:18:13,170
+service worker thing for years and it turns
+out it's really slow".
+
+296
+00:18:13,170 --> 00:18:16,070
+But it wasn't Service Worker that was the
+problem.
+
+297
+00:18:16,440 --> 00:18:20,860
+I was using this app shell rather than letting...
+I was letting JavaScript do the rest,
+
+298
+00:18:20,860 --> 00:18:22,480
+like fetch the content and everything.
+
+299
+00:18:22,480 --> 00:18:27,760
+Which is fine if your design order dictates
+that you do this, but it didn't in this case.
+
+300
+00:18:27,760 --> 00:18:31,200
+I've re-architected the site into a
+single-page app.
+
+301
+00:18:31,700 --> 00:18:34,220
+And single-page apps are incredibly slow,
+
+302
+00:18:34,220 --> 00:18:37,240
+and this is why I moan about frameworks
+all the time.
+
+303
+00:18:37,380 --> 00:18:40,360
+Here's what it takes a website to get to first
+render.
+
+304
+00:18:40,500 --> 00:18:42,400
+HTML starts downloading...
+
+305
+00:18:42,400 --> 00:18:44,280
+CSS downloads...
+
+306
+00:18:44,280 --> 00:18:46,420
+and now start rendering content.
+
+307
+00:18:46,420 --> 00:18:50,080
+And we continue to render content as more
+HTML downloads.
+
+308
+00:18:50,080 --> 00:18:53,520
+We might download JavaScript too, but,
+you know, it should be async,
+
+309
+00:18:53,520 --> 00:18:55,160
+it's not gonna disrupt the rendering.
+
+310
+00:18:55,720 --> 00:19:00,500
+If we contrast this to a single-page app,
+the HTML downloads...
+
+311
+00:19:00,500 --> 00:19:03,080
+usually instantly, because it's very small...
+
+312
+00:19:03,080 --> 00:19:05,000
+CSS downloads...
+
+313
+00:19:05,000 --> 00:19:06,720
+and then we get our first render.
+
+314
+00:19:06,720 --> 00:19:10,200
+And that's assuming that the JavaScript
+isn't render-blocking, which normally is,
+
+315
+00:19:10,200 --> 00:19:11,900
+but let's be kind here.
+
+316
+00:19:11,910 --> 00:19:14,470
+Anyway, this is just a basic UI render.
+
+317
+00:19:14,470 --> 00:19:19,230
+And then, the JavaScript downloads,
+it parses, it executes,
+
+318
+00:19:19,230 --> 00:19:22,390
+and then it goes about fetching the content
+from the network.
+
+319
+00:19:22,390 --> 00:19:27,610
+And once it has all of the content, it adds
+it to the page and we get to render.
+
+320
+00:19:28,440 --> 00:19:30,380
+And this is how slow happens.
+
+321
+00:19:30,390 --> 00:19:32,530
+This is why single-page apps can be really slow.
+
+322
+00:19:32,530 --> 00:19:36,370
+And here in my case I didn't lose much time
+on the downloading of the JavaScript
+
+323
+00:19:36,370 --> 00:19:39,530
+and the downloading of the CSS, because it 
+was all coming from the service worker,
+
+324
+00:19:39,530 --> 00:19:40,700
+it was all cached.
+
+325
+00:19:40,700 --> 00:19:42,460
+The problem is at the bottom here.
+
+326
+00:19:42,460 --> 00:19:47,420
+The JavaScript has to download ALL of the
+content before showing any of it.
+
+327
+00:19:47,980 --> 00:19:51,980
+The more I think about load time performance,
+the more I realize that it isn't about the
+
+328
+00:19:51,980 --> 00:19:57,020
+size of the CSS, size of the JavaScript, it
+all comes down to being progressive.
+
+329
+00:19:57,020 --> 00:20:00,940
+And this is related to progressive
+enhancement, but not quite the same.
+
+330
+00:20:00,940 --> 00:20:03,960
+I mean, show them what you've got.
+
+331
+00:20:03,960 --> 00:20:07,920
+All the time you're loading, the user is
+watching and waiting.
+
+332
+00:20:08,660 --> 00:20:13,700
+Don't make them wait until you've loaded
+everything before showing them anything.
+
+333
+00:20:13,710 --> 00:20:19,690
+Prioritise the first render, the first interaction,
+show the user what you've got as you get it.
+
+334
+00:20:19,690 --> 00:20:23,660
+And this is why I was failing, because I was
+hoarding content, I was downloading it all
+
+335
+00:20:23,670 --> 00:20:26,670
+and once I had it all, I was showing it all.
+
+336
+00:20:26,670 --> 00:20:32,180
+And in retrospect it seems kind of stupid
+to be doing this, re-architecting this site
+
+337
+00:20:32,180 --> 00:20:34,420
+into this single-page app model.
+
+338
+00:20:34,420 --> 00:20:39,980
+But for me, this was due to AppCache, this
+is my AppCache hangover, because AppCache
+
+339
+00:20:39,980 --> 00:20:45,740
+NEARLY lets you do this page shell pattern,
+but not quite, but it lets you get so close that
+
+340
+00:20:45,740 --> 00:20:51,060
+you can almost smell it, but just at the last
+second it stops you with some horrendous bugs.
+
+341
+00:20:51,720 --> 00:20:57,860
+But once AppCache was out of the way,
+I was like "Really? Is AppCache gone now?
+
+342
+00:20:57,860 --> 00:21:00,120
+Does that mean I can do whatever I want?"
+
+343
+00:21:00,120 --> 00:21:04,100
+And I just went straight to the thing that
+AppCache nearly would let me have,
+
+344
+00:21:04,100 --> 00:21:06,840
+I went straight back to the page shell model.
+
+345
+00:21:07,220 --> 00:21:11,240
+What I didn't stop to think is that the best
+answer wasn't the one that AppCache
+
+346
+00:21:11,240 --> 00:21:15,680
+nearly let me have, it was the thing it never
+let me anywhere near.
+
+347
+00:21:15,680 --> 00:21:17,740
+What I wanted was streaming.
+
+348
+00:21:17,740 --> 00:21:22,840
+So this is a sort of simulation of streaming,
+the numbers are reasonably real.
+
+349
+00:21:22,850 --> 00:21:27,250
+And we can see that with the streaming
+model it completes slightly faster than
+
+350
+00:21:27,250 --> 00:21:32,570
+without streaming, so...streaming
+completes, without streaming completes.
+
+351
+00:21:32,570 --> 00:21:38,370
+The reason for that is the processing is happening
+while it's downloading, which is great.
+
+352
+00:21:38,370 --> 00:21:41,900
+But the biggest win is that some rendering
+happens...
+
+353
+00:21:41,900 --> 00:21:44,400
+ages before the non-streaming version.
+
+354
+00:21:44,400 --> 00:21:46,040
+It's rendering all the time.
+
+355
+00:21:46,040 --> 00:21:49,600
+This is the full HTML spec loading here
+over throttled connection.
+
+356
+00:21:49,610 --> 00:21:51,270
+It's a 3 MB document.
+
+357
+00:21:51,270 --> 00:21:55,830
+It's still downloading, but it gets on screen
+after only 20 KB is received.
+
+358
+00:21:55,830 --> 00:22:01,150
+That's streaming, and this [INAUDIBLE], this
+is a benefit for like 10, 20 years.
+
+359
+00:22:01,150 --> 00:22:05,790
+But for a long time, there's been no access
+to streams in JavaScript,
+
+360
+00:22:05,790 --> 00:22:07,850
+but that is all changing.
+
+361
+00:22:08,420 --> 00:22:12,400
+Well, we designed the Fetch API alongside
+the Service Worker.
+
+362
+00:22:12,400 --> 00:22:16,920
+We wanted a lower-level representation of
+requests and responses, but it was also a
+
+363
+00:22:16,920 --> 00:22:23,300
+good opportunity to create a much better API
+than XMLHttpRequest, because it's a horrible,
+
+364
+00:22:23,300 --> 00:22:27,260
+you know, that was an old ActiveX thing
+that we turned into a web standard.
+
+365
+00:22:27,260 --> 00:22:33,400
+I think next year XHR turns 18 years old
+and I don't want to be using that API
+
+366
+00:22:33,400 --> 00:22:35,160
+when it's old enough to drink.
+
+367
+00:22:35,160 --> 00:22:36,960
+It's bad enough as it is.
+
+368
+00:22:36,960 --> 00:22:40,340
+So when you fetch the URL, you get a
+Promise for a response.
+
+369
+00:22:40,340 --> 00:22:45,740
+We haven't downloaded the whole thing at this
+point, this is just when the headers are ready.
+
+370
+00:22:46,100 --> 00:22:50,240
+And now you choose how to interpret the
+response, so things like response.json(),
+
+371
+00:22:50,240 --> 00:22:53,560
+that returns a Promise, and you'll get your
+data at the other side.
+
+372
+00:22:53,570 --> 00:22:59,970
+And this compresses really nicely with ES6,
+arrow functions, and even nicer with
+
+373
+00:22:59,970 --> 00:23:04,230
+async functions which are being developed
+in pretty much all the browsers right now.
+
+374
+00:23:04,230 --> 00:23:09,370
+So here the keyword "await", it pauses the
+execution of the code until the Promise resolves,
+
+375
+00:23:09,370 --> 00:23:12,750
+but it's paused in an async way, so it
+doesn't block the thread.
+
+376
+00:23:12,750 --> 00:23:18,140
+I think Edge has an experimental version of
+this, Chrome Canary I think is about to...
+
+377
+00:23:18,140 --> 00:23:23,420
+but it produces much easier to read code, so I'm
+gonna be using it in the rest of my examples.
+
+378
+00:23:23,420 --> 00:23:25,420
+If you haven't encountered it before...
+
+379
+00:23:25,420 --> 00:23:28,840
+it's just you can pretend that async code
+is synchronous.
+
+380
+00:23:28,840 --> 00:23:32,760
+Anyway, you don't have to read the response's
+JSON, we provided lots of little helpers
+
+381
+00:23:32,760 --> 00:23:36,060
+to read as form data, text, blob, array buffers.
+
+382
+00:23:36,320 --> 00:23:37,900
+And we did this for two reasons.
+
+383
+00:23:37,900 --> 00:23:40,460
+One, it's a nice convenience feature.
+
+384
+00:23:40,460 --> 00:23:46,150
+Also, we wanted to ship Fetch before streams
+were ready, so we needed to provide another
+
+385
+00:23:46,150 --> 00:23:51,850
+way of reading the body of the response, for
+we reserved response.body() for the stream.
+
+386
+00:23:51,850 --> 00:23:55,610
+And that's been in Chrome and Opera for
+around about a year now,
+
+387
+00:23:55,610 --> 00:23:59,020
+and it's also being developed by Firefox,
+Edge and even Safari.
+
+388
+00:23:59,020 --> 00:24:00,800
+And here is how to use the stream.
+
+389
+00:24:01,080 --> 00:24:05,360
+So all I want is to fetch the HTML spec,
+but read it as a stream.
+
+390
+00:24:05,360 --> 00:24:08,700
+First we call getReader(), and this gives
+us a lock onto the stream,
+
+391
+00:24:08,700 --> 00:24:13,420
+so it knows we are the only thing that can
+read it, and then we call reader.read(),
+
+392
+00:24:13,420 --> 00:24:15,700
+and that returns a Promise for some data.
+
+393
+00:24:15,700 --> 00:24:20,900
+In this result object here, result.done is
+true when there's no data left,
+
+394
+00:24:20,900 --> 00:24:24,440
+otherwise result.value is some data.
+
+395
+00:24:24,440 --> 00:24:28,700
+In this case, that data is a Uint8Array of bytes.
+
+396
+00:24:28,700 --> 00:24:31,880
+It's not the whole response, it's just the
+first part of it.
+
+397
+00:24:31,880 --> 00:24:34,540
+If we want the next part, we call
+reader.read() again,
+
+398
+00:24:34,540 --> 00:24:38,160
+and we keep calling that until result.done is true.
+
+399
+00:24:38,580 --> 00:24:43,120
+So if we wanted to get the length of the
+response here, we could do this by
+
+400
+00:24:43,120 --> 00:24:47,880
+creating a variable for a total and a variable
+for the results, create a loop,
+
+401
+00:24:47,880 --> 00:24:51,560
+and that is gonna read and read and read,
+until result.done is true,
+
+402
+00:24:51,560 --> 00:24:56,160
+and then we can get the value and add its
+length to the total, and log that out.
+
+403
+00:24:56,160 --> 00:25:01,120
+And I'm gonna see if I can get that working
+in a live demo.
+
+404
+00:25:01,120 --> 00:25:03,080
+Well, that needs to be bigger, doesn't it?
+
+405
+00:25:03,090 --> 00:25:04,330
+There we go.
+
+406
+00:25:05,100 --> 00:25:07,720
+So, let's see if the Wi-Fi is going to work.
+
+407
+00:25:07,720 --> 00:25:09,960
+So it's the same code you saw before.
+
+408
+00:25:10,240 --> 00:25:12,660
+We should see some log in here.
+
+409
+00:25:12,660 --> 00:25:14,840
+Ah, there it is, this is the HTML spec downloading.
+
+410
+00:25:14,840 --> 00:25:19,100
+So we can see here that the chunks are all
+the same size, I think so it's dictated
+
+411
+00:25:19,100 --> 00:25:23,800
+partly by the server, partly by the
+network stack in the browser.
+
+412
+00:25:23,809 --> 00:25:27,360
+But what we are actually doing here is inspecting all of these chunks
+
+413
+00:25:27,360 --> 00:25:29,700
+without having to have the whole response
+in memory.
+
+414
+00:25:29,710 --> 00:25:36,200
+I mean, uncompressed, the whole HTML spec
+is about...it's well over 8 MB.
+
+415
+00:25:36,200 --> 00:25:39,800
+But we are able to look at this without
+keeping 8 MB in memory.
+
+416
+00:25:39,800 --> 00:25:44,420
+The more practical use of this would be to
+search the HTML spec for a particular string,
+
+417
+00:25:44,420 --> 00:25:46,580
+like the word "horse", for example.
+
+418
+00:25:46,580 --> 00:25:51,620
+So we could do this by reading all of the text
+and then seeing "does the text include horse?".
+
+419
+00:25:51,620 --> 00:25:54,860
+But here we are having to allocate 8 MB of
+memory, we're having to download
+
+420
+00:25:54,860 --> 00:25:56,540
+the whole thing and search across it.
+
+421
+00:25:56,550 --> 00:25:58,750
+We can do way better with streams.
+
+422
+00:25:59,080 --> 00:26:03,840
+So instead of fetching all the text, we loop
+over the stream, just as we were before.
+
+423
+00:26:04,240 --> 00:26:08,840
+Now one of the problems we face here is
+result.value is an array of bytes,
+
+424
+00:26:08,840 --> 00:26:11,440
+whereas we want a string to do string matching.
+
+425
+00:26:11,440 --> 00:26:14,180
+In future this will be really easy, you'll just
+be able to pipe
+
+426
+00:26:14,180 --> 00:26:16,860
+the body through a text decoder, like that.
+
+427
+00:26:17,660 --> 00:26:19,720
+This would be using a transform stream.
+
+428
+00:26:19,730 --> 00:26:22,330
+Transform streams haven't been
+standardised on the Web yet,
+
+429
+00:26:22,330 --> 00:26:26,190
+so at the moment you have to do things a
+little bit more the long way around.
+
+430
+00:26:26,190 --> 00:26:29,990
+So I'm gonna getReader(), I'm going to
+create a new TextDecoder,
+
+431
+00:26:29,990 --> 00:26:33,640
+which is a standard that's been around for
+a while, and then loop through again.
+
+432
+00:26:33,940 --> 00:26:38,420
+Here you can see I'm calling decoder.decode
+and passing in result.value,
+
+433
+00:26:38,420 --> 00:26:41,680
+and that will turn the bytes into a string.
+
+434
+00:26:41,690 --> 00:26:46,200
+This little option there, "stream: true",
+that's really important.
+
+435
+00:26:46,200 --> 00:26:48,400
+I'll show you why it's important.
+
+436
+00:26:50,080 --> 00:26:52,080
+Let's make that bigger again.
+
+437
+00:26:52,080 --> 00:26:56,320
+So this is a simple piece of code here, I've
+got three Uint8Arrays,
+
+438
+00:26:56,320 --> 00:26:58,240
+each with three bytes in them.
+
+439
+00:26:58,240 --> 00:27:02,240
+I'm creating a decoder, and then for each
+part I'm going to try decoding it.
+
+440
+00:27:02,250 --> 00:27:05,020
+And as you can see, the output is garbage.
+
+441
+00:27:05,020 --> 00:27:06,840
+So, it's not working at all.
+
+442
+00:27:06,840 --> 00:27:09,860
+But if I add in that "stream: true" option...
+
+443
+00:27:10,720 --> 00:27:13,560
+oh, that's gonna be a syntax error, there
+we go.
+
+444
+00:27:18,740 --> 00:27:20,420
+Wish I could code.
+
+445
+00:27:22,600 --> 00:27:24,640
+So happens when you join [INAUDIBLE].
+
+446
+00:27:24,640 --> 00:27:27,240
+Right, and if I run this...
+
+447
+00:27:27,960 --> 00:27:29,340
+it works!
+
+448
+00:27:30,510 --> 00:27:32,810
+Now, what's happening here?
+
+449
+00:27:32,810 --> 00:27:37,240
+It knows it's a streaming format, so it
+knows it's going to...
+
+450
+00:27:37,240 --> 00:27:40,700
+it's not necessarily getting the whole picture
+everytime you call it.
+
+451
+00:27:40,700 --> 00:27:44,060
+So, we call it with the first three bytes,
+and with "stream: true",
+
+452
+00:27:44,060 --> 00:27:48,680
+it goes "oh, these first three bytes, this is an
+incomplete...it's part of an emoji,
+
+453
+00:27:48,680 --> 00:27:50,680
+but I know it's not complete".
+
+454
+00:27:50,680 --> 00:27:54,620
+So, it gives back an empty string, but it
+holds onto those three bytes.
+
+455
+00:27:54,620 --> 00:27:58,500
+The next time we call it, we get another three
+bytes and it takes that first byte and goes
+
+456
+00:27:58,510 --> 00:28:02,090
+"oh, if I add this to what I've already got,
+I get the poo emoji!
+
+457
+00:28:02,090 --> 00:28:04,210
+Brilliant, right? I'm gonna hold on to that."
+
+458
+00:28:04,210 --> 00:28:07,810
+And in the next two bytes, it's like "this
+is an incomplete emoji again".
+
+459
+00:28:07,810 --> 00:28:09,720
+So it gives us the poo emoji back.
+
+460
+00:28:09,720 --> 00:28:15,280
+Then on the third call we get the final three
+bytes and it goes "oh, with those first two,
+
+461
+00:28:15,280 --> 00:28:19,040
+I can now create the toilet emoji if I add
+it to the things I already have",
+
+462
+00:28:19,040 --> 00:28:23,240
+and then byte 33 there is the exclamation
+mark, so returns the string back.
+
+463
+00:28:23,240 --> 00:28:28,080
+And this is because emoji are four bytes in
+UTF-8, which is what we are using here.
+
+464
+00:28:31,180 --> 00:28:35,960
+Now we can check each chunk of text and see
+"does it contain the word horse?".
+
+465
+00:28:35,960 --> 00:28:38,800
+And if we find a match, we can cancel the
+stream and this is great,
+
+466
+00:28:38,800 --> 00:28:42,980
+because if we find the match in the first,
+like, 20 KB,
+
+467
+00:28:42,980 --> 00:28:47,540
+we can abort the download and save
+having to download that whole 8 MB.
+
+468
+00:28:47,540 --> 00:28:49,700
+But there is a bug in this code.
+
+469
+00:28:49,700 --> 00:28:51,600
+It's a fairly simple one.
+
+470
+00:28:51,600 --> 00:28:53,640
+It works fine if our chunks are...
+
+471
+00:28:53,640 --> 00:28:56,080
+"My lovely", no match.
+
+472
+00:28:56,080 --> 00:28:58,160
+"horse, running through the field",
+there's a match!
+
+473
+00:28:58,160 --> 00:28:59,140
+Great!
+
+474
+00:28:59,500 --> 00:29:01,240
+But what if the chunks were...
+
+475
+00:29:01,250 --> 00:29:03,940
+"My lovely h", no match.
+
+476
+00:29:03,940 --> 00:29:06,980
+"orse, running through the field", no match.
+
+477
+00:29:06,980 --> 00:29:10,680
+So we missed the match because neither
+chunk contains the word "horse",
+
+478
+00:29:10,680 --> 00:29:11,900
+the thing we are looking for.
+
+479
+00:29:11,900 --> 00:29:16,320
+So when you're doing this sort of stuff with
+streams, filtering streams, searching streams,
+
+480
+00:29:16,320 --> 00:29:19,220
+you need to be able to defend against this bug.
+
+481
+00:29:19,220 --> 00:29:24,180
+To do this we keep a buffer that is the size
+of the thing we are searching for, minus 1.
+
+482
+00:29:24,180 --> 00:29:28,260
+So "horse", five characters, we keep a
+buffer of four.
+
+483
+00:29:29,160 --> 00:29:32,760
+So that means we would see "My lovely h",
+no match.
+
+484
+00:29:32,760 --> 00:29:36,740
+Then when we get the next chunk, we would
+add on the last four characters we had,
+
+485
+00:29:36,740 --> 00:29:38,640
+and we'd match on the word "horse".
+
+486
+00:29:39,500 --> 00:29:44,820
+The code for that is relatively simple, same
+as before, we've got result there.
+
+487
+00:29:44,820 --> 00:29:46,900
+I'm going to keep a buffer...
+
+488
+00:29:46,900 --> 00:29:51,560
+loop through the stream, as before, decode
+it into the buffer this time
+
+489
+00:29:51,560 --> 00:29:56,360
+and if we find a match, great, if we don't,
+we reduce the buffer down to the last
+
+490
+00:29:56,360 --> 00:30:00,120
+four characters or whatever the thing we
+are searching for is, minus 1.
+
+491
+00:30:00,600 --> 00:30:04,540
+So now we are searching a large document,
+but we are keeping memory usage
+
+492
+00:30:04,540 --> 00:30:07,140
+really, really low, and we can stop the
+download early.
+
+493
+00:30:07,140 --> 00:30:10,300
+So here is a demo of that on the HTML spec.
+
+494
+00:30:10,300 --> 00:30:12,920
+Let's see if I can clear this.
+
+495
+00:30:12,920 --> 00:30:16,940
+This is a bit more of a complicated example,
+because I'm making it case-insensitive,
+
+496
+00:30:16,940 --> 00:30:21,420
+and I'm...keeping more of the results
+around, so you can see it.
+
+497
+00:30:21,420 --> 00:30:25,360
+If I run this again, see HTML spec, once again
+searching for "horse"...
+
+498
+00:30:25,360 --> 00:30:26,860
+there it goes, and there's a match!
+
+499
+00:30:26,860 --> 00:30:30,620
+There's a match because someone who
+contributed to the spec is called Tommy Thorsen,
+
+500
+00:30:30,620 --> 00:30:32,660
+and he's got "horse" in his name, which is great.
+
+501
+00:30:35,000 --> 00:30:40,620
+Anyone got other suggestions for words that
+might be in the HTML spec, but maybe not?
+
+502
+00:30:40,620 --> 00:30:41,540
+Poo!
+
+503
+00:30:41,540 --> 00:30:42,840
+Okay!
+
+504
+00:30:42,840 --> 00:30:44,180
+You're more polite here, actually.
+
+505
+00:30:44,180 --> 00:30:48,520
+When I gave this talk in London, there was
+silence for a long time,
+
+506
+00:30:48,520 --> 00:30:50,800
+because no one wanted to say anything,
+and then in the back of the room
+
+507
+00:30:50,800 --> 00:30:53,920
+someone just stood up and pointed out at
+me and went: "SHIT"!
+
+508
+00:30:53,920 --> 00:30:55,580
+[Laughter]
+
+509
+00:30:55,580 --> 00:30:57,660
+I hope that's a suggestion!
+
+510
+00:30:57,660 --> 00:30:59,800
+And you're not just commenting.
+
+511
+00:30:59,800 --> 00:31:05,700
+But I sort of like, quite skeptic, just thought
+"oh, it's not gonna be in there, okay",
+
+512
+00:31:05,700 --> 00:31:07,520
+and I run it and it's like "oh, there's a match!"
+
+513
+00:31:07,520 --> 00:31:08,640
+What is there a match on?
+
+514
+00:31:08,640 --> 00:31:13,680
+-- oh yeah, there's canva-"shit"-region!
+[Laughter]
+
+515
+00:31:13,680 --> 00:31:16,260
+It's canvashitregion, but, you know.
+
+516
+00:31:16,580 --> 00:31:18,560
+I'm curious now, is "poo" in there?
+
+517
+00:31:18,560 --> 00:31:19,620
+Let's find out.
+
+518
+00:31:23,240 --> 00:31:23,940
+Oh!
+
+519
+00:31:23,940 --> 00:31:24,780
+Right on.
+
+520
+00:31:25,180 --> 00:31:26,180
+Spoofing!
+
+521
+00:31:26,180 --> 00:31:28,660
+There you go, so "poo" is also in the spec.
+
+522
+00:31:28,660 --> 00:31:29,620
+Hahaha!
+
+523
+00:31:31,720 --> 00:31:38,260
+Also, I was talking to some developers in
+India, where connectivity is really poor.
+
+524
+00:31:38,260 --> 00:31:42,760
+When we were doing this, they were sending
+a blob of JSON down for some search results.
+
+525
+00:31:42,760 --> 00:31:47,700
+And a feature they were asking for was like
+"Hey, can we detect 3G versus 2G?"
+
+526
+00:31:47,700 --> 00:31:52,680
+And the reason is they wanted to send
+fewer results if it was 2G.
+
+527
+00:31:53,040 --> 00:31:56,440
+Because they wanted a faster render,
+because it's less to download.
+
+528
+00:31:56,440 --> 00:32:00,700
+But detecting connectivity like that is really
+unreliable.
+
+529
+00:32:00,700 --> 00:32:04,060
+Your phone could be saying you're on 4G,
+but you're actually on Lie-Fi.
+
+530
+00:32:04,070 --> 00:32:08,250
+It's very common in India to be on a 4G
+connection, but with 2G speeds.
+
+531
+00:32:08,250 --> 00:32:10,580
+It's much better to do something like this.
+
+532
+00:32:10,580 --> 00:32:14,520
+To send something that isn't JSON,
+but each line of it is JSON.
+
+533
+00:32:14,520 --> 00:32:18,100
+Because that becomes a streaming format,
+that's really easy to parse
+
+534
+00:32:18,100 --> 00:32:21,000
+and you can sort of deal with each result as it arrives.
+
+535
+00:32:21,380 --> 00:32:23,260
+So I got a demo of that as well.
+
+536
+00:32:23,260 --> 00:32:26,460
+And this is very connection-dependent on whether
+this works or not.
+
+537
+00:32:27,240 --> 00:32:29,740
+So, if I fetch some JSON...
+
+538
+00:32:29,740 --> 00:32:33,420
+it takes -- okay, so about one, over one second.
+
+539
+00:32:33,420 --> 00:32:36,360
+It's always faster on the next attempt,
+because the connection is there.
+
+540
+00:32:36,360 --> 00:32:42,300
+So we sort of got 400 miliseconds, but if we
+stream it, and sometimes this is no difference...
+
+541
+00:32:42,300 --> 00:32:43,700
+uh, it's a little bit different.
+
+542
+00:32:43,700 --> 00:32:46,000
+So we're dealing with it in 300 miliseconds.
+
+543
+00:32:46,000 --> 00:32:49,860
+But if I...bring up DevTools and throttle
+the connection...
+
+544
+00:32:51,200 --> 00:32:52,760
+let's make that bigger as well.
+
+545
+00:32:58,820 --> 00:33:01,520
+So in DevTools we've got ways to throttling
+the connection here,
+
+546
+00:33:01,520 --> 00:33:05,680
+so that's what I'm going to do...if I can get
+the mouse on that one pixel.
+
+547
+00:33:08,980 --> 00:33:14,000
+I'm gonna throttle it down to regular 2G,
+and let's see how that changes things.
+
+548
+00:33:16,760 --> 00:33:19,240
+So now if I fetch regular JSON...
+
+549
+00:33:20,040 --> 00:33:23,520
+this is throttling the connection as well,
+it's probably gonna take far too long.
+
+550
+00:33:23,520 --> 00:33:26,620
+Okay, so it's arriving at about...just on
+the five seconds.
+
+551
+00:33:26,620 --> 00:33:31,400
+With the streaming version, we get the first
+bit of data in 300 miliseconds,
+
+552
+00:33:31,400 --> 00:33:34,240
+and the rest of it is taking the full five seconds.
+
+553
+00:33:34,250 --> 00:33:37,150
+So if you want a slow connection being up
+to stream data like this,
+
+554
+00:33:37,150 --> 00:33:40,370
+it will allow you to get something on the
+screen a whole lot faster.
+
+555
+00:33:42,400 --> 00:33:45,960
+So you might be wondering how I can use
+this speed with my Wikipedia demo.
+
+556
+00:33:45,960 --> 00:33:49,080
+Well, I can't really, it's completely sad for us.
+
+557
+00:33:49,090 --> 00:33:52,930
+Because although you can use Fetch to
+read a response in little chunks like this,
+
+558
+00:33:52,930 --> 00:33:56,380
+JavaScript has no access to the streaming
+HTML parser.
+
+559
+00:33:56,520 --> 00:34:02,920
+It might look like here I'm happily adding
+HTML into an element, but when you do "+="
+
+560
+00:34:02,920 --> 00:34:06,840
+like this, you're actually getting and setting,
+so it's more like this.
+
+561
+00:34:06,840 --> 00:34:12,560
+You're asking the browser to take the
+article element and turn it into a HTML text,
+
+562
+00:34:12,560 --> 00:34:15,540
+you serialize all of it, and then you're adding
+on more text,
+
+563
+00:34:15,540 --> 00:34:17,400
+and asking it to parse all of that.
+
+564
+00:34:17,400 --> 00:34:21,680
+So the elements at the start of the string
+get created multiple times and
+
+565
+00:34:21,680 --> 00:34:24,720
+performance just goes through the floor,
+it's a real disaster.
+
+566
+00:34:24,720 --> 00:34:28,900
+I'm hoping we can provide an API to actually stream HTML into an element,
+
+567
+00:34:28,900 --> 00:34:30,340
+but it's not there yet.
+
+568
+00:34:30,789 --> 00:34:35,229
+But in Chrome now, and this is something
+we released only a few weeks ago,
+
+569
+00:34:35,229 --> 00:34:37,369
+you can create your own readable streams.
+
+570
+00:34:38,180 --> 00:34:40,360
+They look like that, that's the API for it.
+
+571
+00:34:40,360 --> 00:34:44,680
+You pass it an object with some methods,
+like "start", "pull" and "cancel".
+
+572
+00:34:44,680 --> 00:34:47,380
+So if I wanted to create a stream with
+random numbers...
+
+573
+00:34:47,380 --> 00:34:51,500
+I'm going to create a variable for an interval,
+and you'll see why in a moment.
+
+574
+00:34:51,500 --> 00:34:55,260
+Then I create a stream, and in the "start"
+method, which is called straight away,
+
+575
+00:34:55,260 --> 00:34:59,240
+I'm going to set up an interval that pushes
+onto the controller
+
+576
+00:34:59,240 --> 00:35:01,540
+every second just a random number.
+
+577
+00:35:02,260 --> 00:35:06,160
+The controller there has other methods like
+"close" and "cancel".
+
+578
+00:35:06,160 --> 00:35:10,860
+Here I'm also going to add a "cancel" method,
+so with the person looking at the stream,
+
+579
+00:35:10,860 --> 00:35:14,320
+once they cancel it, this method will happen
+and I'll clear the interval.
+
+580
+00:35:15,440 --> 00:35:18,660
+Now this is just like a Fetch stream and it
+can be read in exactly the same way,
+
+581
+00:35:18,660 --> 00:35:20,300
+so I'll show you a demo of that.
+
+582
+00:35:21,740 --> 00:35:26,260
+Here it is, so this is the same code you saw
+before, and here I'm going to get reader,
+
+583
+00:35:26,260 --> 00:35:28,900
+read it three times and then cancel it and
+try to read it again.
+
+584
+00:35:28,900 --> 00:35:31,660
+Uh, if I try to run that code.
+
+585
+00:35:33,760 --> 00:35:36,140
+Every second we're seeing a number appear,
+
+586
+00:35:36,140 --> 00:35:39,200
+but then it's cancelled and we don't get a
+fourth number.
+
+587
+00:35:39,600 --> 00:35:43,740
+So this is what we call a push stream,
+because we are shoving data into the stream
+
+588
+00:35:43,740 --> 00:35:47,500
+every second, whether someone is reading
+from it or not.
+
+589
+00:35:47,500 --> 00:35:50,600
+So eventually we're gonna get into memory
+problems if no one reads the stream,
+
+590
+00:35:50,600 --> 00:35:52,819
+because all of these numbers are gonna be
+buffered up.
+
+591
+00:35:53,100 --> 00:35:56,180
+An alternative to this is a pull stream.
+
+592
+00:35:56,180 --> 00:36:00,780
+So here we create a "pull" method, and this
+is only called when the buffer is not full.
+
+593
+00:36:00,780 --> 00:36:05,740
+So when someone starts reading from it,
+when someone has pulled values out of it.
+
+594
+00:36:05,740 --> 00:36:09,820
+And in here, I can wait a second and
+generate a random number.
+
+595
+00:36:09,820 --> 00:36:13,620
+And I don't need a "cancel" method here because
+we're only going to be generating numbers
+
+596
+00:36:13,620 --> 00:36:15,200
+when someone is asking for them.
+
+597
+00:36:16,100 --> 00:36:20,640
+So, streams could be of anything as well,
+with Fetch we saw them being Uint8Arrays,
+
+598
+00:36:20,640 --> 00:36:23,980
+here they're numbers, they could be objects,
+they could be image elements,
+
+599
+00:36:23,980 --> 00:36:25,380
+they could be anything.
+
+600
+00:36:25,520 --> 00:36:29,040
+The designers of streams spent a lot of time talking to the Node folks,
+
+601
+00:36:29,040 --> 00:36:32,760
+because Node has had like four different
+versions of streams and they are very open
+
+602
+00:36:32,760 --> 00:36:36,800
+about all of the mistakes they've made,
+so we were able to fix a lot of them here.
+
+603
+00:36:36,800 --> 00:36:40,220
+I wanted all of us to make sure that it was
+just one stream type, no matter what
+
+604
+00:36:40,220 --> 00:36:42,740
+the kind of object you're passing through it.
+
+605
+00:36:43,460 --> 00:36:47,280
+So you might be wondering how I can use
+this to speed up my Wikipedia demo.
+
+606
+00:36:47,280 --> 00:36:52,620
+Well I can't, it's kind of unrelated, not
+if using streams on their own, anyway.
+
+607
+00:36:52,630 --> 00:36:56,430
+But things get a lot more interesting when
+we combine with a Service Worker.
+
+608
+00:36:56,960 --> 00:36:58,720
+So this already streams.
+
+609
+00:36:58,720 --> 00:37:02,660
+The browser is smart about this, you've passed
+in a response object from the network,
+
+610
+00:37:02,660 --> 00:37:07,520
+it connects the dots and it streams...it
+bypasses the Service Worker after headers
+
+611
+00:37:07,520 --> 00:37:09,060
+and streams to the page.
+
+612
+00:37:09,060 --> 00:37:14,860
+This also streams, it streams from disk,
+from the cache, but in Chrome now,
+
+613
+00:37:14,860 --> 00:37:19,580
+in the very latest version of Chrome, you can
+also create your own streaming responses.
+
+614
+00:37:20,160 --> 00:37:24,100
+So here I'm going to create a text encoder,
+this is the opposite of before,
+
+615
+00:37:24,100 --> 00:37:27,640
+this is something where I can give it a
+string and it turns it into bytes.
+
+616
+00:37:27,650 --> 00:37:29,970
+Because I'm creating my own Fetch stream,
+
+617
+00:37:29,970 --> 00:37:33,950
+it has to be a Uint8Array of bytes that we fit
+down the wire.
+
+618
+00:37:33,950 --> 00:37:38,370
+And then I'm gonna create my own stream,
+that is going to wait a second,
+
+619
+00:37:38,370 --> 00:37:41,410
+and then push a paragraph containing a
+random number.
+
+620
+00:37:41,410 --> 00:37:43,160
+And then I'm gonna respond with that.
+
+621
+00:37:43,160 --> 00:37:46,620
+So new Response, passing a stream,
+and I'm gonna set some headers to say
+
+622
+00:37:46,620 --> 00:37:48,760
+that it's HTML Content Type.
+
+623
+00:37:49,300 --> 00:37:51,060
+And if I load that...
+
+624
+00:37:53,780 --> 00:37:55,060
+this is what happens.
+
+625
+00:37:55,060 --> 00:37:58,060
+We can see the random numbers
+appearing, one by one.
+
+626
+00:37:58,060 --> 00:38:03,220
+But one important detail is that the loader
+there is spinning, because as far as the...
+
+627
+00:38:03,220 --> 00:38:07,660
+the browser is concerned, it is just
+receiving an HTML response very slowly.
+
+628
+00:38:07,960 --> 00:38:10,280
+It's just getting a stream of bytes.
+
+629
+00:38:12,460 --> 00:38:16,180
+You might be wondering how I can use this
+to speed up my Wikipedia demo.
+
+630
+00:38:16,180 --> 00:38:17,280
+Well, I can!
+
+631
+00:38:17,280 --> 00:38:19,100
+This is the bit that makes the difference.
+
+632
+00:38:19,100 --> 00:38:23,160
+Because in that last example we were piping
+content straight into the browser's streaming
+
+633
+00:38:23,170 --> 00:38:25,890
+HTML parser, and that is the key to it all.
+
+634
+00:38:25,890 --> 00:38:28,390
+This is what AppCache wouldn't let us do.
+
+635
+00:38:28,390 --> 00:38:33,650
+Instead of turning a perfectly capable
+server-rendered site into a single-page app,
+
+636
+00:38:33,650 --> 00:38:37,270
+I can use Service Worker more like I would
+my server.
+
+637
+00:38:37,900 --> 00:38:42,100
+So what I did for the Wiki Offline is I
+fetched the header of the page,
+
+638
+00:38:42,100 --> 00:38:45,620
+the footer of the page and the body as
+three separate requests.
+
+639
+00:38:45,620 --> 00:38:49,460
+The header and footer are coming from the cache
+and the body is coming from the network,
+
+640
+00:38:49,460 --> 00:38:52,580
+unless the network fails, and then it gets
+an error page from the cache.
+
+641
+00:38:52,580 --> 00:38:56,380
+And then I combine those three streams
+together into one stream.
+
+642
+00:38:56,380 --> 00:38:59,920
+combine() is a function I wrote, it's only
+a few lines, but I'm not gonna show it.
+
+643
+00:38:59,920 --> 00:39:04,780
+Then it creates a single stream that is the header,
+and then the body, and then the footer.
+
+644
+00:39:04,780 --> 00:39:08,200
+And then I can create a new Response
+using that combined stream.
+
+645
+00:39:08,420 --> 00:39:13,220
+And this is like what we do on a server,
+we've got text content on a page,
+
+646
+00:39:13,220 --> 00:39:16,620
+we'll be getting some of it from a template,
+some of it from a database,
+
+647
+00:39:16,620 --> 00:39:19,900
+maybe some of it from a web service,
+but we are sending out one response.
+
+648
+00:39:19,900 --> 00:39:23,000
+And this is the same that we're doing here,
+just from my service worker.
+
+649
+00:39:23,540 --> 00:39:28,640
+Treating your service worker like a server maps
+really well to things like blogs and Wikipedia.
+
+650
+00:39:28,650 --> 00:39:33,410
+And to see the result of this, for one last
+time, we go to The Comparinator.
+
+651
+00:39:33,410 --> 00:39:35,450
+>> MALE SPEAKER: Fight!
+
+652
+00:39:35,450 --> 00:39:37,280
+>> JAKE ARCHIBALD: Here's how it compares.
+
+653
+00:39:37,289 --> 00:39:39,589
+So on the left I've got the app shell render
+
+654
+00:39:39,589 --> 00:39:44,349
+and on the right I've got the streaming
+service worker, both over 3G.
+
+655
+00:39:45,580 --> 00:39:49,040
+And we see the difference in performance
+is huge.
+
+656
+00:39:49,040 --> 00:39:53,480
+We've already seen that the app shell was
+slower than just standard network,
+
+657
+00:39:53,480 --> 00:39:56,580
+so let's compare it to the original server render.
+
+658
+00:39:56,580 --> 00:39:57,920
+Here they go.
+
+659
+00:40:00,400 --> 00:40:05,360
+We get the benefit of that cached first
+render that is just the bar across the top,
+
+660
+00:40:05,360 --> 00:40:06,940
+which happens without the network.
+
+661
+00:40:06,940 --> 00:40:09,760
+And this allows the network stuff to be
+happening in parallel,
+
+662
+00:40:09,760 --> 00:40:11,920
+and it gets on screen quicker because it's
+less to fetch,
+
+663
+00:40:11,920 --> 00:40:13,940
+because it's just the middle body segment.
+
+664
+00:40:13,940 --> 00:40:15,140
+I'll play it again.
+
+665
+00:40:15,140 --> 00:40:19,080
+Bang bang, it's on the screen way earlier
+than the plain old network version,
+
+666
+00:40:19,080 --> 00:40:22,260
+even though the content is still coming
+from the same network connection.
+
+667
+00:40:23,440 --> 00:40:26,220
+So, I'm really excited about streams.
+
+668
+00:40:26,220 --> 00:40:30,180
+That doesn't mean that the app shell model
+is bad, it depends on what you're building,
+
+669
+00:40:30,180 --> 00:40:33,440
+I used the app shell model in Emojoy and it
+works really well.
+
+670
+00:40:33,900 --> 00:40:37,640
+And the result was a PWA that loads faster
+than a native app.
+
+671
+00:40:37,640 --> 00:40:42,359
+A streaming solution would be faster and
+easier for you if you use server rendering.
+
+672
+00:40:42,359 --> 00:40:46,799
+Switching to an app shell model from
+server rendering loses you performance,
+
+673
+00:40:46,800 --> 00:40:48,200
+so avoid that.
+
+674
+00:40:48,200 --> 00:40:52,080
+If you already use a single-page app,
+then you're already suffering
+
+675
+00:40:52,080 --> 00:40:55,940
+the performance problems of that, so it's fine
+to use a page shell in your service worker.
+
+676
+00:40:55,940 --> 00:41:00,740
+I'd also consider streams if the initial
+content may come from the network,
+
+677
+00:41:00,740 --> 00:41:03,000
+because you'll want to be able to pipe that through.
+
+678
+00:41:03,000 --> 00:41:06,540
+Also consider streams if a partial content
+render is valuable to you.
+
+679
+00:41:06,540 --> 00:41:10,680
+Which is with Wikipedia, because some of the
+Wikipedia articles are really long, but it's
+
+680
+00:41:10,680 --> 00:41:14,900
+valuable if you can just get the first few paragraphs
+down when they have been downloaded.
+
+681
+00:41:15,720 --> 00:41:18,680
+So this is landing in Chrome, latest version.
+
+682
+00:41:18,680 --> 00:41:20,200
+It's something that I know.
+
+683
+00:41:20,200 --> 00:41:24,960
+With Facebook, they're developing a progressive
+web app and they're going to use streams,
+
+684
+00:41:24,960 --> 00:41:26,740
+because they found it to be the fastest solution,
+
+685
+00:41:26,740 --> 00:41:28,600
+so it's something I really recommend
+checking out.
+
+686
+00:41:28,600 --> 00:41:31,880
+If you wanna know more about it, I've
+written an article about them,
+
+687
+00:41:31,880 --> 00:41:34,520
+because I was really excited about it, and I
+do some sillier things here,
+
+688
+00:41:34,520 --> 00:41:38,720
+like transcoding MPEG to a GIF on the fly,
+which I know isn't particularly useful,
+
+689
+00:41:38,720 --> 00:41:41,100
+but it's something that streams allow you
+to do.
+
+690
+00:41:41,100 --> 00:41:44,220
+And also stuff like this.
+
+691
+00:41:44,220 --> 00:41:48,960
+Here I'm reading the Wikipedia page for
+Cloud Computing.
+
+692
+00:41:48,960 --> 00:41:53,800
+But using a transform stream to replace every
+instance of the word "cloud" with "butt",
+
+693
+00:41:53,800 --> 00:41:56,500
+which makes it a much easier to read
+article, I think.
+
+694
+00:41:56,500 --> 00:41:59,080
+There's one of my favourite sentences in here,
+which is...
+
+695
+00:41:59,080 --> 00:42:01,940
+that thing is about Oracle, now where is it?
+
+696
+00:42:03,740 --> 00:42:05,020
+If I could spell.
+
+697
+00:42:06,340 --> 00:42:07,920
+There it is, yeah!
+
+698
+00:42:07,920 --> 00:42:12,020
+On 2012, Oracle announced the Oracle Butt.
+
+699
+00:42:12,020 --> 00:42:16,260
+While aspects of the Oracle Butt are still
+in development, this butt offering is p--
+
+700
+00:42:16,260 --> 00:42:18,600
+I love that phrase, "butt offering"!
+
+701
+00:42:18,600 --> 00:42:20,200
+[Laughter]
+
+702
+00:42:20,880 --> 00:42:24,800
+But using a transform stream for this means
+I'm not having to download the whole thing
+
+703
+00:42:24,800 --> 00:42:29,300
+and then do a find and replace and then serve
+it, I can do the find and replace on the fly.
+
+704
+00:42:31,400 --> 00:42:34,420
+So, Service Worker lets us create great user
+experiences.
+
+705
+00:42:34,420 --> 00:42:36,700
+This is Bruce Lawson's logo for the Service
+Worker,
+
+706
+00:42:36,700 --> 00:42:38,500
+because we don't have a better one right now.
+
+707
+00:42:38,500 --> 00:42:41,780
+I kinda like it, because if you stare at it,
+it looks like the colors are changing.
+
+708
+00:42:41,780 --> 00:42:44,619
+The colors ARE changing, it's got a
+CSS filter on there.
+
+709
+00:42:45,080 --> 00:42:47,500
+Kinda makes me feel drunk, I kinda like it.
+
+710
+00:42:48,140 --> 00:42:51,780
+I realize I've shown you a lot of code today,
+and I got through a lot of it in lightning speed,
+
+711
+00:42:51,780 --> 00:42:55,780
+but there's a free Udacity course, which I
+developed along with some colleagues,
+
+712
+00:42:55,780 --> 00:43:00,600
+it's fully interactive, where you take an
+online-only website to a full offline-first.
+
+713
+00:43:00,600 --> 00:43:03,460
+It covers the app shell model,
+and it covers IndexedDB,
+
+714
+00:43:03,460 --> 00:43:06,040
+tries to make that a little bit easier
+to understand.
+
+715
+00:43:06,040 --> 00:43:08,260
+Don't worry too much about
+remembering the URL,
+
+716
+00:43:08,260 --> 00:43:12,280
+just Google for "Udacity offline"
+and you'll find it.
+
+717
+00:43:12,280 --> 00:43:15,400
+And with that, thank you very much,
+it's been a pleasure.
+
+718
+00:43:15,400 --> 00:43:22,140
+[Applause]
