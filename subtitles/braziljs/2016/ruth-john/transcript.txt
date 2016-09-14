@@ -1,0 +1,188 @@
+>> FEMALE SPEAKER: Ruth é desenvolvedora
+web e uma tecnóloga criativa
+
+com mais de 10 anos de experiências em
+sites e aplicações web.
+
+Prestativa, gosta de instigar as pessoas
+para que tenham acesso a novas tecnologias,
+
+mostrando formas interessantes de usá-las.
+
+Suas atividades favoritas incluem hackear
+hardware e levar códigos de áudio e vídeo
+
+para as ruas, ou mais recentemente,
+em conferências.
+
+Ela também sabe o nome de todos os
+personagens do Thundercats.
+
+>> RUTH JOHN: Hello!
+>> AUDIENCE: Hello!
+
+>> RJ: Hello Brazil!
+
+My name is Ruth.
+
+You can find me all over the Internet as
+@Rumyra, that's Twitter, GitHub, CodePen,
+
+whatever your flavor.
+
+There's a whole theory on the speaker
+circle about how you follow Jake Archibald
+
+during a talk like that, that was an
+incredible talk.
+
+And I don't have a Game of Thrones opening.
+
+[Laughter]
+
+So, this is the second time, I'm sure,
+I have to follow him as well.
+
+So, rule number one: start with
+Game of Thrones, I don't have that.
+
+Rule number two: don't talk about web.
+
+Haha.
+
+There is gonna be web, don't worry,
+[INAUDIBLE].
+
+I'm gonna talk to you all about MIDI,
+which seems like a very strange topic.
+
+But bear with me.
+
+Now, there is a reason I want to talk to
+you about MIDI.
+
+That's because there's a common
+misconception about MIDI,
+
+and it goes a little something about this.
+
+[8-bit music plays]
+
+Right.
+
+[INAUDIBLE]
+
+[Music ends]
+
+That's a real website by the way.
+
+That's a modern website, [INAUDIBLE]
+well done.
+
+I recommend you all to [INAUDIBLE], it's
+amazing!
+
+That music that you heard...
+
+that's not MIDI.
+
+That's digital audio.
+
+Right, those bleeping noises...
+
+whenever you say the word MIDI,
+people think of those bleeping noises.
+
+There's a good reason for that.
+
+That's because MIDI stands for
+Musical Instrument Digital Interface.
+
+Right?
+
+So people sort of get hung up on this
+Musical Instrument bit,
+
+and I will touch on musical instruments a
+bit later, so you'll understand why.
+
+But the real interesting thing about MIDI...
+
+is Digital Interface.
+
+And that's what I want to talk to you
+about today.
+
+MIDI came around after a rise in the
+popularity of digital instruments
+
+in the 70s.
+
+And so, they had a bunch of industry
+experts come together, so people who were
+
+building musical instruments, musicians,
+
+everybody like that, so they came together
+in the early 80s.
+
+And they thought to themselves, "Wouldn't
+it be nice if all these instruments
+
+had a protocol so they could talk to each
+other, like, all the same".
+
+Right?
+
+So, in 1993, they created...
+
+MIDI specification.
+
+And at the time it was General MIDI 1.
+
+Now, there's lots of MIDI specifications
+today and I'm gonna take you through
+
+some of them.
+
+But if we start with General MIDI 1.
+
+General MIDI 1 was made of three main parts.
+
+There was the actual digital specification,
+and this is messages that were sent
+
+back and forth from all these sort of
+digital instruments that they had.
+
+There was a file format.
+
+Now, this doesn't really stand as a file
+format so much today,
+
+this is usually part of other file formats.
+
+I'm not gonna talk to you about it, if you
+want to find out more about it,
+
+I'm sure you can find out more about it on
+the Internet.
+
+And there was a connector specification.
+
+I'm sure you've all seen it, this is a sort of [INAUDIBLE] connector, with sort of five pins in it.
+
+And you usually use to find it on the back of some cards, you can find it on older digital instruments.
+
+This has sort of been superseded by [INAUDIBLE], I will touch on it a bit later.
+
+
+
+
+
+
+
+
+
+
+
